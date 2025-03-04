@@ -1,6 +1,7 @@
 body {
     font-family: Arial;
     background-image: url(Screenshot\ 2025-03-03\ 14.57.33.png);
+    background-repeat: no-repeat;
 }
 
 nav {
