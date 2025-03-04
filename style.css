@@ -3,14 +3,20 @@ body {
 }
 
 .nav {
-    background-color: lightblue;
+    background: linear-gradient(to right, lightblue, lightgreen);
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
     overflow: hidden;
 }
 
 .nav a {
     text-decoration: none;
     color: black;
-    padding: 15px;
-    display: block;
-    float: left;
+    padding: 15px 20px;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
 }
