@@ -2,7 +2,7 @@ body {
     font-family: Arial;
 }
 
-.nav {
+nav {
     background: linear-gradient(to right, lightblue, lightgreen);
     display: flex;
     justify-content: flex-start;
@@ -10,13 +10,13 @@ body {
     overflow: hidden;
 }
 
-.nav a {
+nav a {
     text-decoration: none;
     color: black;
     padding: 15px 20px;
     transition: background-color 0.3s;
 }
 
-.nav a:hover {
+nav a:hover {
     background-color: darkblue;
 }
